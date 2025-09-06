@@ -26,7 +26,7 @@ const showData = async () => {
   overlay.classList.add("d-none");
   let cartona = "";
   for (let i = 0; i < data.length; i++) {
-    cartona += `<a class="col-lg-3 col-sm-6" href='/desc.html?id=${data[i].id}'>
+    cartona += `<a class="col-lg-3 col-sm-6" href='desc.html?id=${data[i].id}'>
         <div>
           <div class="card text-center">
             <header class="list-group-item p-3">
